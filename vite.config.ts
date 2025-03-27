@@ -9,5 +9,10 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/test/setup.ts',
+    exclude: [
+      "**/*.stories.{ts,tsx}",
+      "**/node_modules/**",
+      "**/dist/**",
+    ]
   },
 });
