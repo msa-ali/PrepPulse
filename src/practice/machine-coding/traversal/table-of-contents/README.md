@@ -2,7 +2,7 @@
 
 On websites, heading tags give a hierarchy to the page and heading information can be used by user agents (including screen readers) to construct a table of contents for a document automatically.
 
-Given a document node, write a function tableOfContents that generates an HTML string representing a table of contents based on the headings (<h1>, <h2>, ..., <h6>) in the document. Following the best practices, heading levels won't be skipped, i.e. <h1> will be followed by <h2> and so on.
+Given a document node, write a function tableOfContents that generates an HTML string representing a table of contents based on the headings (`<h1>, <h2>, ..., <h6>`) in the document. Following the best practices, heading levels won't be skipped, i.e. `<h1>` will be followed by `<h2>` and so on.
 
 The returned string doesn't need to contain any indentation.
 
